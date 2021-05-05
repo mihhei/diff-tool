@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/diff-tool/static/css/main.d6dc4c11.chunk.css",
-    "main.js": "/diff-tool/static/js/main.5ce2530e.chunk.js",
-    "main.js.map": "/diff-tool/static/js/main.5ce2530e.chunk.js.map",
+    "main.css": "/diff-tool/static/css/main.7117fa54.chunk.css",
+    "main.js": "/diff-tool/static/js/main.8b8c74f9.chunk.js",
+    "main.js.map": "/diff-tool/static/js/main.8b8c74f9.chunk.js.map",
     "runtime-main.js": "/diff-tool/static/js/runtime-main.f9acaf93.js",
     "runtime-main.js.map": "/diff-tool/static/js/runtime-main.f9acaf93.js.map",
     "static/js/2.3886449a.chunk.js": "/diff-tool/static/js/2.3886449a.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.d0611a1f.chunk.js": "/diff-tool/static/js/3.d0611a1f.chunk.js",
     "static/js/3.d0611a1f.chunk.js.map": "/diff-tool/static/js/3.d0611a1f.chunk.js.map",
     "index.html": "/diff-tool/index.html",
-    "static/css/main.d6dc4c11.chunk.css.map": "/diff-tool/static/css/main.d6dc4c11.chunk.css.map",
+    "static/css/main.7117fa54.chunk.css.map": "/diff-tool/static/css/main.7117fa54.chunk.css.map",
     "static/js/2.3886449a.chunk.js.LICENSE.txt": "/diff-tool/static/js/2.3886449a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f9acaf93.js",
     "static/js/2.3886449a.chunk.js",
-    "static/css/main.d6dc4c11.chunk.css",
-    "static/js/main.5ce2530e.chunk.js"
+    "static/css/main.7117fa54.chunk.css",
+    "static/js/main.8b8c74f9.chunk.js"
   ]
 }
