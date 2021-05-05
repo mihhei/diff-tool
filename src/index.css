@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar {
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  width: 100%;
+  height: 50px;
+  background: rgb(255, 138, 4);
+  box-shadow: 0px 0px 10px rgb(197, 118, 0);
+}
+
+.container {
+  width: 100%;
+  height: 90vh;
+  padding: 20px 50px 20px 50px;
+  display: grid;
+  grid-template-rows: 2fr 3fr 2fr 1fr;
+}
+
+.button {
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50px;
+  background: rgb(255, 138, 4);
+  border-radius: 2px;
+}
+ .button:hover {
+   cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(197, 118, 0);
+  transition: ease-out 0.1s;
+ }
+
+ .block {
+   width: 100%;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .block {
+   width: 100%;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .flip-container {
+  perspective: 1000;
+}
+.flip-container.flip .flipper {
+  transform: rotateX(180deg);
+}
+ .flip-container, .front, .back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.flipper {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+.front, .back {
+  backface-visibility: hidden;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  
+  z-index: 2;
+  
+}
+
+.back {
+  width: 100%;
+  transform: rotateX(180deg);
+}
+
+.result {
+  padding: 10px;
+  overflow-y: auto;
+  background: cornsilk;
+  width: 100%;
+  border: 1px solid rgb(255, 138, 4);
+  height: 100px;
+}
+
+#red {
+  color: red;
+  vertical-align:-0.1rem;
+}
+
+#green {
+  color: green;
+  vertical-align: 0.1rem;
+}
