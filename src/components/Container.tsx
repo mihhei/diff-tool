@@ -12,7 +12,7 @@ export const Container: React.FC = () => {
     const [diff, setDiff] = useState<string>('');
 
     const getText = (tag: string, text: string) => {
-        if (tag === 'old') {
+        if (tag === 'original') {
             setOldText(text);
         } else {
             setNewText(text);
@@ -37,13 +37,13 @@ export const Container: React.FC = () => {
 
     return (
         <div className="container">
-            <InputField tag="old" getText={getText} value={oldText} />
+            <InputField tag="original" getText={getText} value={oldText} />
             <Flipper
                 front={<Button clickHandler={showDiff} text={'Show DIFF'} />}
                 back={<div className="result">{parse(diff)}</div>}
                 flip={flip}
             />
-            <InputField tag="new" getText={getText} value={newText} />
+            <InputField tag="modified" getText={getText} value={newText} />
             <Flipper front={<></>} back={<Button clickHandler={resetButton} text={'Try again!'} />} flip={flip} />
         </div>
     );
